@@ -1,5 +1,5 @@
 # How to Find Duplicate Files
-$Path = '\\10.0.0.117\d$\temp' #define path to folders to find duplicate files
+$Path = '\\192.168.1.10\d$\temp' #define path to folders to find duplicate files
 $Files=gci -File -Recurse -path $Path | Select-Object -property FullName,Length
 $Count=1
 $TotalFiles=$Files.Count

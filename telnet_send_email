@@ -1,0 +1,15 @@
+# 1
+telnet example.com 25
+
+# 2
+ehlo altest.com
+mail from: example@altest.com
+rcpt to: al@nudnov.net
+# 3
+data
+Subject: My Telnet Test Email
+Hello,
+This is an email sent by using the telnet command.
+Your friend,
+Me
+.
